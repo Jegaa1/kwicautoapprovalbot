@@ -7,6 +7,6 @@ class Config:
     FSUB = getenv("FSUB", "AsuranMoviefinder1")
     CHID = int(getenv("CHID", "-1001702935595")
     #SUDO = "880087645"
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Erichdaniken:Erichdaniken@cluster0.vhu3d.mongodb.net/?retryWrites=true&w=majority")
+    #MONGO_URI = getenv("MONGO_URI", "mongodb+srv://Erichdaniken:Erichdaniken@cluster0.vhu3d.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
